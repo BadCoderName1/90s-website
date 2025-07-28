@@ -1,55 +1,60 @@
 <!doctype html>
 <html lang="en-US">
-
-<title>Ryan's 90s Webpage - Home</title>
-
-</html>
-<h1>Welcome to my 90s website</h1>
-<nav class="menu">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-  </ul>
-</nav>
-
+<head>
+    <title>Ryan's 90s Webpage - Home</title>
 </head>
 
-<body>
-  <h2>Home Page</h2>
+<body background="images/dark.jpg" text="white">
 
-  <p>This is a single paragraph</p>
-  <a href="https://www.google.com">
-    Link to Google
-  </a>
+    <h1>Welcome to my 90s website</h1>
 
-  <p>What to do with an Apple:</p>
+    <nav class="menu">
+        <!-- Button linking to next page -->
+        <form action="index.html">
+            <button type="submit">Home</button>
+        </form>
+        <form action="about.html">
+            <button type="submit">About</button>
+        </form>
+    </nav>
 
-  <ul>
-    <li>Eat</li>
-    <li>Juice it</li>
-    <li>Slice it</li>
-  </ul>
+    <h2>Home Page</h2>
 
-  <img src="images/apple.jpg" alt="A Red Apple" width="200" height="200" />
+    <p>This is a single paragraph</p>
+    <a href="https://www.google.com">Link to Google</a>
 
-  <table>
-    <th>Fruits Table</th>
-    <tr>
-      <td>Apples</td>
-      <td>Oranges</td>
-      <td>Pears</td>
-    </tr>
-    <tr>
-      <td>Banana</td>
-      <td>Mango</td>
-      <td>Melon</td>
-    </tr>
-  </table>
+    <p>What to do with an Apple:</p>
+    <ul>
+        <li>Eat</li>
+        <li>Juice it</li>
+        <li>Slice it</li>
+    </ul>
 
-  <!-- A table of images of fruit -->
-  <table>
-    <tr><img src="images/pear.jpg" alt="A Green Pear" width="200" height="200" /></tr>
-    <tr><img src="images/orange.jpg" alt="A Orange Orange" width="200" height="200" /></tr>
-  </table>
+    <img src="images/apple.jpg" alt="A Red Apple" width="200" height="200" />
+
+    <table>
+        <tr>
+            <th>Fruits Table</th>
+        </tr>
+        <tr>
+            <td>Apples</td>
+            <td>Oranges</td>
+            <td>Pears</td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>Mango</td>
+            <td>Melon</td>
+        </tr>
+    </table>
+
+    <!-- A table of images of fruit -->
+    <table>
+        <tr>
+            <td><img src="images/pear.jpg" alt="A Green Pear" width="200" height="200" /></td>
+            <td><img src="images/orange.jpg" alt="An Orange Orange" width="200" height="200" /></td>
+        </tr>
+    </table>
 
 </body>
+</html>
