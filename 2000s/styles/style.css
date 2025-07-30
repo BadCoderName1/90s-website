@@ -15,7 +15,7 @@ h1 {
     font-size: 36px;
     color: deeppink;
     text-align: center;
-    text-shadow: 2px 2px 5px grey;
+    text-shadow: 2px 2px 5px purple;
 }
 
 .nav-button {
@@ -55,4 +55,11 @@ h1 {
         text-align: center;
         font: bold;
         font-size: 18px;
+    }
+
+    .block,
+    .{
+
+
+
     }
