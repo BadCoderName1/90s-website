@@ -1,3 +1,58 @@
 p {
     color: red;
 }
+
+
+body {
+    background-image: url("../images/dark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+h1 {
+    font-size: 36px;
+    color: deeppink;
+    text-align: center;
+    text-shadow: 2px 2px 5px grey;
+}
+
+.nav-button {
+    background-color: deeppink;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.fancy-table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+    .fancy-table thead {
+        background-color: transparent;
+        color: white;
+    }
+
+    .fancy-table td {
+        background-color: deeppink;
+        color: white;
+    }
+
+    .fancy-table th,
+    .fancy-table td {
+        border: 1px solid deeppink;
+        padding: 12px 16px;
+        text-align: center;
+        font: bold;
+        font-size: 18px;
+    }
