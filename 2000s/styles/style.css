@@ -57,9 +57,23 @@ h1 {
         font-size: 18px;
     }
 
-    .block,
-    .{
+.fruit-table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: deeppink;
+    text-align: center;
+}
 
-
-
-    }
+.the-apple {
+    /* Your styles here */
+    border: 2px solid deeppink;
+    border-radius: 10px;
+    box-shadow: 0 0 10px hotpink;
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: center;
+    margin: 0;
+}
